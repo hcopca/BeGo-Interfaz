@@ -1,8 +1,3 @@
-/* @import url(/Avenir\ Heavy.ttf);
-@font-face {
-  font-family: avenir;
-  src: url(/Avenir\ Heavy.ttf);
-} */
 body {
   background-color: black;
   color: white;
@@ -47,7 +42,6 @@ body {
   display: flex;
   height: 25px;
   width: 110px;
-  /* color: #FFFFFF; */
   font-size: 14px;
   letter-spacing: 0;
   line-height: 26px;
@@ -140,9 +134,72 @@ body {
 .guardar {
   width: 20px;
   height: 50px;
-  box-shadow: 0 3px 4px 0 #ffffff;
 }
 
+/* MINI-LOGOS */
+
+.logo-total {
+  width: 20px;
+  height: 50px;
+  color: #0364ff;
+}
+.logo-completed {
+  width: 20px;
+  height: 50px;
+  color: #0ee881;
+}
+.logo-in {
+  width: 20px;
+  height: 50px;
+  color: #ffd200;
+}
+.logo-delayed {
+  width: 20px;
+  height: 50px;
+  color: #ff5252;
+}
+
+.number-svg {
+  height: 20px;
+  width: 22px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.text-svg {
+  height: 19px;
+  width: 92px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.projects {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+}
+.total {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+.total-down {
+  height: 50%;
+  width: 50%;
+}
 /* BOTTOM BAR */
 
 .bottom-bar {
@@ -170,4 +227,11 @@ body {
   font-weight: 900;
   letter-spacing: 0;
   line-height: 26px;
+}
+
+.bottom-rectangle {
+  border-radius: 8px;
+  background-color: #10161c;
+  box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
+    0 13px 9px 0 #000000;
 }
