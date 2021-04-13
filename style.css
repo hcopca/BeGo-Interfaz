@@ -1,0 +1,173 @@
+/* @import url(/Avenir\ Heavy.ttf);
+@font-face {
+  font-family: avenir;
+  src: url(/Avenir\ Heavy.ttf);
+} */
+body {
+  background-color: black;
+  color: white;
+  font-family: Avenir;
+}
+
+/* PARTE SUPERIOR "TASK" */
+.task {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.text-task {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* TEXTO DE CREATE+ */
+.create {
+  text-align: right;
+  color: #ffbe00;
+}
+
+/* BARRA SUPERIOR */
+.top-bar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.all {
+  color: #ffbe00;
+}
+
+/* TASKS */
+.up {
+  display: flex;
+  height: 25px;
+  width: 110px;
+  /* color: #FFFFFF; */
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.five {
+  color: gray;
+}
+
+/* CUADROS DE ORDENES */
+.total-orders {
+  display: flex;
+  justify-content: space-between;
+}
+.rectangle {
+  height: 106px;
+  width: 171px;
+  border-radius: 8px;
+  background-color: #10161c;
+  box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
+    0 13px 9px 0 #000000;
+}
+.order-number {
+  height: 20px;
+  width: 119px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.progress {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  color: #c1c7d0;
+  font-size: 12px;
+}
+
+.name {
+  height: 14px;
+  width: 89px;
+  color: #c1c7d0;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.lines {
+  display: flex;
+}
+.line-one {
+  height: 10px;
+  background-color: #ffbe00;
+  width: 20%;
+  height: 1px;
+}
+.line-two {
+  height: 10px;
+  background-color: #494c50;
+  width: 80%;
+  height: 1px;
+}
+.day {
+  text-align: right;
+  color: #c1c7d0;
+  height: 14px;
+  width: 62px;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 14px;
+  top: 10%;
+  /* posicion a la derecha */
+}
+
+/* STATISTICS */
+.stati {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.sta {
+  height: 24px;
+  width: 69px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.guardar {
+  width: 20px;
+  height: 50px;
+  box-shadow: 0 3px 4px 0 #ffffff;
+}
+
+/* BOTTOM BAR */
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.precio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grafica {
+  display: flex;
+  align-items: flex-end;
+  align-content: stretch;
+}
+.months {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 26px;
+}
