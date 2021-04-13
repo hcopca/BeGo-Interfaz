@@ -21,6 +21,9 @@ body {
 .create {
   text-align: right;
   color: #ffbe00;
+  height: 24px;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 /* BARRA SUPERIOR */
@@ -31,9 +34,16 @@ body {
   font-weight: 900;
   letter-spacing: 0;
   line-height: 26px;
+  color: white;
+}
+.top-bar a:link {
+  color: white;
 }
 
-.all {
+.top-bar a:visited {
+  color: white;
+}
+.top-bar a:hover {
   color: #ffbe00;
 }
 
@@ -42,9 +52,13 @@ body {
   display: flex;
   height: 25px;
   width: 110px;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0;
   line-height: 26px;
+  justify-content: space-around;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-align: center;
 }
 .five {
   color: gray;
@@ -210,6 +224,16 @@ body {
   letter-spacing: 0;
   line-height: 26px;
 }
+.bottom-bar a:link {
+  color: white;
+}
+
+.bottom-bar a:visited {
+  color: white;
+}
+.bottom-bar a:hover {
+  color: #ffbe00;
+}
 .precio {
   display: flex;
   justify-content: center;
@@ -217,8 +241,8 @@ body {
 }
 .grafica {
   display: flex;
-  align-items: flex-end;
   align-content: stretch;
+  justify-content: center;
 }
 .months {
   display: flex;
@@ -228,10 +252,32 @@ body {
   letter-spacing: 0;
   line-height: 26px;
 }
+.months a:link {
+  color: white;
+}
+
+.months a:visited {
+  color: white;
+}
+.months a:hover {
+  color: #ffbe00;
+}
 
 .bottom-rectangle {
   border-radius: 8px;
   background-color: #10161c;
   box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
     0 13px 9px 0 #000000;
+}
+
+/* FOOTER-BAR-IMG */
+
+.footer-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch;
+  margin-top: 20%;
 }
