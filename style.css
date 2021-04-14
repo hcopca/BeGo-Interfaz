@@ -5,12 +5,17 @@ body {
 }
 
 /* PARTE SUPERIOR "TASK" */
+.principal {
+  margin-top: 15%;
+}
 .task {
   position: relative;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .text-task {
+  font-size: 18px;
+  line-height: 26px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -21,9 +26,10 @@ body {
 .create {
   text-align: right;
   color: #ffbe00;
-  height: 24px;
   font-size: 16px;
   line-height: 21px;
+  margin-top: 12%;
+  margin-right: 12%;
 }
 
 /* BARRA SUPERIOR */
@@ -36,10 +42,11 @@ body {
   line-height: 26px;
   color: white;
 }
+
+/* defined colors for top links */
 .top-bar a:link {
   color: white;
 }
-
 .top-bar a:visited {
   color: white;
 }
@@ -48,26 +55,31 @@ body {
 }
 
 /* TASKS */
+
+.top-up {
+  margin-top: 5%;
+  margin-left: 5%;
+}
 .up {
   display: flex;
-  height: 25px;
-  width: 110px;
-  font-size: 12px;
-  letter-spacing: 0;
+  font-size: 16px;
+  letter-spacing: 5;
   line-height: 26px;
-  justify-content: space-around;
-  font-weight: 900;
-  letter-spacing: 0;
   text-align: center;
 }
 .five {
   color: gray;
+  size: 16px;
+  margin-left: 10px;
 }
 
 /* CUADROS DE ORDENES */
 .total-orders {
   display: flex;
   justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .rectangle {
   height: 106px;
@@ -119,6 +131,8 @@ body {
   height: 1px;
 }
 .day {
+  display: flex;
+  justify-content: flex-end;
   text-align: right;
   color: #c1c7d0;
   height: 14px;
@@ -128,6 +142,7 @@ body {
   letter-spacing: 0;
   line-height: 14px;
   top: 10%;
+
   /* posicion a la derecha */
 }
 
@@ -136,6 +151,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .sta {
   height: 24px;
@@ -219,10 +236,11 @@ body {
 .bottom-bar {
   display: flex;
   justify-content: space-around;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 26px;
+  margin-top: 10%;
 }
 .bottom-bar a:link {
   color: white;
@@ -238,12 +256,39 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15%;
+  font-size: 45px;
+}
+.logo-price {
+  font-size: 22px;
 }
 .grafica {
   display: flex;
   align-content: stretch;
   justify-content: center;
+  position: relative;
 }
+.circle {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+  margin-left: 35%;
+}
+.vertical-line {
+  position: absolute;
+  width: 1px;
+  box-sizing: border-box;
+  height: 150px;
+  border: 1px solid #ffffff;
+  opacity: 0.2;
+  margin-bottom: 0%;
+  margin-left: 35%;
+}
+
 .months {
   display: flex;
   justify-content: space-around;
