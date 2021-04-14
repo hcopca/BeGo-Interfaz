@@ -81,6 +81,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .rectangle {
   height: 106px;
   width: 171px;
@@ -89,6 +90,7 @@ body {
   box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
     0 13px 9px 0 #000000;
 }
+
 .order-number {
   height: 20px;
   width: 119px;
